@@ -10,6 +10,7 @@ body {
 
     margin: 0 10px;
     padding: 0;
+    overflow-x: hidden;
 }
 
 button {
@@ -71,6 +72,11 @@ button {
     background-color: #808080;
 }
 
+.mobile-nav.active {
+    display: flex;
+    animation: mobile-nav-anim .4s linear forwards;
+}
+
 @media (max-width : 660px) {
     .burger {
         display: flex;
@@ -85,7 +91,7 @@ button {
     }
 }
 
-@keyframes modile-nav-anim {
+@keyframes mobile-nav-anim {
     from {
         transform: translate(0, 0);
     }
