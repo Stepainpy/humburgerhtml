@@ -78,11 +78,7 @@ button {
 }
 
 @media (max-width : 660px) {
-    .burger {
-        display: flex;
-    }
-
-    .mobile-nav {
+    .burger .mobile-nav {
         display: flex;
     }
 
